@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 285px;
+    background: #6943FF;
+    color: white;
+    padding: 10px;  
+}
+
+#title{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 25px;
+}
+
+#units{
+    text-align: center;
+    background: #6943FF;
+    color: white;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 40%;
+    height: 85px;
+    margin: 30px auto;
+    font-size: 58px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+#convert-btn{
+    background: white;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    padding: 7px 14px;
+}
+
+#section{
+    background-color: #1F2937;
+    padding: 15px;
+}
+
+.card-unit{
+    background-color: #273549;
+    width: 100%;
+    height: 110px;
+    margin: 36px auto 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.unit-type{
+    color: #CCC1FF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 30px auto 10px;
+    padding: 20px 0px 10px;
+}
+
+.unit-result{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px auto;
+}
